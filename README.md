@@ -251,20 +251,11 @@ EisenTodo 是一个基于艾森豪威尔矩阵的待办事项管理工具，旨�
 
     [app]
     
-    
-    # 应用名称
-    
     title = EisenTodo
-    
-    # 应用包名
     
     package.name = eisentodo
     
-    # 应用版本
-    
     package.version = 0.1
-    
-    # 应用的入口 Python 文件
     
     source.dir = .
     
@@ -275,9 +266,6 @@ EisenTodo 是一个基于艾森豪威尔矩阵的待办事项管理工具，旨�
     
     [buildozer]
     
-    
-    # Android 相关配置
-    
     android.sdk = <YOUR_ANDROID_SDK_PATH>
     
     android.ndk = <YOUR_ANDROID_NDK_PATH>
@@ -286,8 +274,6 @@ EisenTodo 是一个基于艾森豪威尔矩阵的待办事项管理工具，旨�
     
     android.minapi = 21
     
-    
-    # 构建输出目录
     
     bin = $HOME/.buildozer/android/app
 
